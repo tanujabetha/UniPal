@@ -1,0 +1,473 @@
+/* .dragNDropChild,
+.frameChild {
+  position: relative;
+  max-width: 100%;
+}
+.dragNDropChild {
+  width: 483.4px;
+  height: 690.9px;
+  border-radius: var(--br-xl);
+  border: 1px dashed var(--white-white-500);
+  box-sizing: border-box;
+  display: none;
+}
+.frameChild {
+  height: 100.2px;
+  flex: 1;
+  overflow: hidden;
+  z-index: 1;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 34.7px 0 36px;
+}
+.dragAndDrop {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.frameParent {
+  width: 196.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16.7px;
+}
+.or {
+  width: 35.7px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 35.7px;
+  z-index: 1;
+}
+.orWrapper {
+  width: 196.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 6.7px 1px;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 51.1px;
+  width: 190.2px;
+  position: relative;
+  box-shadow: 0 4px 4px #cc7500;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-sandybrown);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.browse {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 25px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--white-white-500);
+  text-align: center;
+  display: inline-block;
+  min-width: 75.7px;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: 11px 55.7px;
+  background-color: var(--color-sandybrown);
+  flex: 1;
+  box-shadow: 0 4px 4px #cc7500;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangleParent:hover {
+  background-color: #cc8526;
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.dragNDrop,
+.dragNDropInner {
+  box-sizing: border-box;
+  display: flex;
+}
+.dragNDropInner {
+  width: 196.5px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs-1) 0 3px;
+}
+.dragNDrop {
+  flex: 1;
+  border-radius: var(--br-xl);
+  border: 1px dashed var(--white-white-500);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 163px 21px 167px var(--padding-xl);
+  gap: 36.6px;
+  min-width: 314px;
+  max-width: 100%;
+}
+.componentlottiehttpsassetIcon {
+  width: 325px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.componentlottiehttpsassetWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.filesUploaded {
+  width: 261px;
+  position: relative;
+  display: inline-block;
+}
+.dragNDropParent,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 424px;
+  flex-direction: column;
+  gap: 60px;
+  min-width: 424px;
+  text-align: left;
+}
+.dragNDropParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 96px;
+}
+.uploadTranscriptsInner {
+  width: 1003.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-1);
+  box-sizing: border-box;
+  max-width: calc(100% - 36px);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--white-white-500);
+  font-family: var(--font-poppins);
+}
+.screenShotAt,
+.weHaveExtensiveExperienceP {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  background-color: #e8e8e8;
+  width: 10px;
+  height: 239px;
+}
+.screenShotAt {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: #c4c4c4;
+  width: 16px;
+  height: 50px;
+  z-index: 1;
+}
+.weHaveExtensiveExperiencePParent {
+  height: 241px;
+  width: 16px;
+  position: relative;
+}
+.uploadTranscripts {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 101px 76px 105px 70.6px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 1000px) {
+  .dragNDropParent {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 975px) {
+  .frameGroup {
+    flex: 1;
+  }
+  .dragNDropParent {
+    flex-wrap: wrap;
+  }
+  .uploadTranscripts {
+    padding-left: var(--padding-16xl);
+    padding-right: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .dragNDrop {
+    padding-top: 106px;
+    padding-bottom: 109px;
+    box-sizing: border-box;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .dragNDropParent {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dragAndDrop,
+  .or {
+    font-size: var(--font-size-lgi);
+  }
+  .browse {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .filesUploaded {
+    font-size: var(--font-size-lgi);
+  }
+  .frameGroup {
+    gap: 30px;
+  }
+} */
+/* Ensure the page takes up full height */
+html, body {
+  height: 100%;
+  background-color: var(--color-darkslateblue);
+  margin: 0;
+  padding: 0;
+}
+
+/* Full page container */
+.uploadTranscripts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-darkslateblue);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Inner container */
+.uploadTranscriptsInner {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Increased gap for better spacing */
+  text-align: center;
+  color: var(--white-white-500);
+  font-family: var(--font-poppins);
+}
+
+/* Upload section */
+.dragNDropParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  padding-top: 8%;
+}
+
+/* Drag and drop area */
+.dragNDrop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--white-white-500);
+  border-radius: var(--br-xl);
+  padding: 40px; /* Increased padding */
+  width: 100%;
+  max-width: 500px;
+  min-height: 500px; /* Increased minimum height */
+  text-align: center;
+  color: var(--white-white-500);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dragNDropChild {
+  display: none;
+}
+
+/* Frame around the upload image */
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.frameWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.frameChild {
+  max-width: 100px;
+}
+
+.dragAndDrop {
+  font-size: 22px; /* Increased font size */
+  font-weight: 500;
+}
+
+/* OR text */
+.orWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or {
+  font-size: 20px; /* Increased font size */
+  font-weight: 400;
+}
+
+/* Inner area for the browse button */
+.dragNDropInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Browse button styling */
+.rectangleParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px; /* Increased padding */
+  border: none;
+  background-color: #cc8526;
+  border-radius: var(--br-3xs);
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.rectangleParent:hover {
+  background-color: white; 
+  /* var(--color-sandybrown); */
+}
+
+.browse {
+  font-size: 20px;
+  color: var(--white-white-500);
+}
+
+/* Frame group for uploaded files section */
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.componentlottiehttpsassetWrapper {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.componentlottiehttpsassetIcon {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.filesUploaded {
+  font-size: 24px; /* Increased font size */
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 20px; /* Increased font size */
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: var(--color-sandybrown);
+  color: var(--white-white-500);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li button:hover {
+  background-color: #cc8526;
+}
+
+@media screen and (max-width: 768px) {
+  .uploadTranscriptsInner {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; /* Adjust gap for smaller screens */
+  }
+
+  .dragNDropParent,
+  .frameGroup {
+    width: 100%;
+    align-items: center;
+  }
+
+  .dragNDrop {
+    max-width: 100%;
+  }
+
+  .componentlottiehttpsassetIcon {
+    width: 150px;
+  }
+}
+.homeButton {
+  position: absolute;
+  top: 20px;
+  left: 19px;
+  width: 65px;
+  height: 85px;
+  object-fit: cover;
+}

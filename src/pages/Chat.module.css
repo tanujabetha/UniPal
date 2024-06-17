@@ -1,0 +1,349 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(28, 61, 115, 0.98);
+  width: 100%;
+  /* height: 900px; */
+  height: 100%;
+}
+.whatAreThe {
+  width: 250px;
+  position: relative;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.whatAreThePreRequisitesFoWrapper {
+  position: absolute;
+  top: 0;
+  left: 513.7px;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--violet-violet-300);
+  box-sizing: border-box;
+  width: 509px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-mid);
+}
+.provideMeThe {
+  position: relative;
+  line-height: 16px;
+}
+.groupItem,
+.provideMeTheCourseListForWrapper {
+  position: absolute;
+  top: 0.3px;
+  left: 0;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--violet-violet-200);
+  box-sizing: border-box;
+  width: 495.8px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-mid);
+}
+.groupItem {
+  border: 1px solid var(--violet-violet-300);
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  background-color: transparent;
+  top: 103.6px;
+  border-radius: var(--br-base);
+  width: 1022.3px;
+  height: 69.6px;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  color: var(--color-silver);
+}
+.frameParent {
+  position: absolute;
+  top: 555px;
+  left: 138.6px;
+  width: 1022.7px;
+  height: 173.1px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.frameChild,
+.howCanI {
+  position: relative;
+  left: 0;
+}
+.howCanI {
+  top: 105.6px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 374.5px;
+  height: 41.2px;
+}
+.frameChild {
+  top: 0;
+  border-radius: 50%;
+  background-color: var(--white-white-500);
+  width: 74px;
+  height: 74px;
+}
+.logoIcon {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  width: 36px;
+  height: 44px;
+  object-fit: cover;
+}
+.ellipseParent {
+  position: absolute;
+  top: 0;
+  left: 137.3px;
+  width: 98.6px;
+  height: 95.3px;
+}
+.howCanIHelpYouTodayParent {
+  position: relative;
+  left: 350px;
+  width: 374.5px;
+  height: 146.8px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--white-white-500);
+  font-family: var(--font-poppins);;
+  bottom: 200px;
+}
+.uploadTranscripts {
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--font-poppins);;
+  color: var(--white-white-500);
+  text-align: center;
+}
+.uploadTranscriptsWrapper {
+  cursor: pointer;
+  border: 1px solid var(--violet-violet-200);
+  padding: 0 var(--padding-3xs);
+  background-color: rgba(162, 162, 168, 0.2);
+  position: absolute;
+  top: 103.6px;
+  left: 1050px;
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 186px;
+  height: 69.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 33.55px);
+  left: 0;
+  width: 0;
+  height: 18.5px;
+}
+.groupParent {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 1280.3px;
+  height: 781.5px;
+}
+.rectangleParent {
+  width: 100%;
+  position: relative;
+  height: 900px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+  font-family: var(--font-poppins);;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.conversationArea {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  margin-bottom: 100px;
+  position: relative;
+  height: 70%;
+  left: 100px;
+}
+
+.question, .answer {
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  display: -moz-inline-block;
+  width: fit-content;
+  font-size: 16px;
+  color: var(--white-white-500);
+  font-family: var(--font-poppins);;
+
+}
+
+.question {
+  background-color: rgba(76, 109, 166, 0.98); /* Blue color for question */
+  color: white;
+}
+
+.answer {
+  background-color: rgba(162, 162, 168, 0.2); /* Gray color for answer */
+  color: white;
+  text-align: right;
+}
+.questionOptions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+  bottom: 100px;
+  position: relative;
+  justify-content: space-around;
+}
+.homeButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  /* background-color: rgba(30, 30, 30, 0.5);  Adjust background color as needed */
+  border: none;
+  cursor: pointer;
+  width: 65px;
+  height: 80px;
+}
+
+.questionItem {
+  padding: 20px;
+
+  background-color: rgba(162, 162, 168, 0.2);
+  border-radius: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #304e83;
+  }
+
+  box-sizing: border-box;
+  width: 480px;
+  backdrop-filter: blur(50px);
+  flex: 0 0 40%;
+  margin: 10px;
+  font-size: 16px;
+  color: var(--white-white-500);
+  font-family: var(--font-poppins);
+}
+.sliderContainer {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.sliderItem {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 8px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sliderItem:hover {
+  background: #ddd;
+}
+.iconContainer {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.popupItem {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.popupOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.userIcon, .chatbotIcon {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+/*}*/
+
+/*.questionOptions {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;  */
+/*justify-content: flex-start;  */
+/*padding: 10px;*/
+/*}*/
+
+/*.questionItem {*/
+/*  padding: 10px 20px;*/
+/*  background-color: #2a9df4;  */
+/*color: white;  */
+/*border-radius: 5px;  */
+/*cursor: pointer;*/
+/*  margin: 5px; */
+/*flex: 1 1 48%; */
+/*box-sizing: border-box;  */
+/*text-align: center;  */
+/*min-width: 250px; */
+/*}*/
+
+/*!* Ensures that there is even spacing between two items in a row *!*/
+/*@media (min-width: 500px) {*/
+/*  .questionItem:not(:nth-child(2n)) {*/
+/*    margin-right: 4%;  */
+/*  }*/
+/*}*/
